@@ -2,9 +2,10 @@ public class SuperVillain extends SuperCitizen{
 
     private String evilPlan;
 
-    public SuperVillain(String name, String job, String superPower, boolean cape, int powerLevel, String evilPlan) {
-        super(name, job, superPower, cape, powerLevel);
+    public SuperVillain(String name, String job, int hitPoints, int maxDamage, int defenseAbility, String superPower, boolean cape, int powerLevel, String superName, String evilPlan) {
+        super( name, job, hitPoints, maxDamage, defenseAbility, superPower, cape, powerLevel, superName);
         this.evilPlan = evilPlan;
+
     }
 
     public String getEvilPlan() {

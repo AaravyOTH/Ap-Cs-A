@@ -2,8 +2,8 @@ public class SuperHero extends SuperCitizen{
 
     private String catchphrase;
 
-    public SuperHero(String name, String job, String superPower, boolean cape, int powerLevel, String catchphrase) {
-        super(name, job, superPower, cape, powerLevel);
+    public SuperHero(String name, String job, int hitPoints, int maxDamage, int defenseAbility, String superPower, boolean cape, int powerLevel, String catchphrase, String superName) {
+        super(name,job,hitPoints,maxDamage,defenseAbility,superPower,cape,powerLevel,superName);
         this.catchphrase = catchphrase;
     }
 
