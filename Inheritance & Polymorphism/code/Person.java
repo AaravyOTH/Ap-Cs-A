@@ -10,7 +10,6 @@ public class Person{
         this.defenseAbility = defenseAbility;
     }
     
-    
     public void setName(String name) {
         this.name = name;
     }
@@ -46,11 +45,9 @@ public class Person{
         hitPoints -= damage;
     }
     
-
     public String getName() {
         return this.name;
     }
-
 
     public String getJob() {
         return this.job;
